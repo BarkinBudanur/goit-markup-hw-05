@@ -21,7 +21,8 @@ body {
 }
 
 .card-title {
-  font-weight: 500;
+  color: #2E2F42; 
+  font-weight: 700;
   font-size: 20px;
   letter-spacing: 0.02em;
 }
@@ -86,4 +87,16 @@ body {
 
 .button:hover {
   background-color: #404bbf;
+}
+
+lu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

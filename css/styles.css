@@ -276,6 +276,7 @@ li {
   background-color: #2e2f42;
   margin-top: 120px;
   margin-bottom: 100px;
+  border: 2px solid;
 }
 
 .site-footer a {

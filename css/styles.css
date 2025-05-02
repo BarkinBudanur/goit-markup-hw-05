@@ -1,3 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.site-header .contact-info {
+  padding-right: 156px;
+  padding-left: 332px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -10,8 +33,9 @@ body {
 .main-title {
   font-weight: bold;
   font-size: 56px;
-  letter-spacing: 0.02em;
   line-height: 60px;
+  letter-spacing: 0.02em;
+  margin: 0; /* Ekstra bir margin eklemekten kaçın */
 }
 
 .section-title {
@@ -60,6 +84,13 @@ body {
   color: #4d5ae5;
 }
 
+.navigator ul {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 40px;
+}
+
 .contact-info .mail {
   color: black;
 }
@@ -77,12 +108,16 @@ body {
 }
 
 .button {
-  background-color: #4d5ae5;
+  background-color: #4d5ae5; /* Butonun ana rengi */
+  color: white;
+  width: 169px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin-top: 48px; /* Yazı ile buton arasında 48px boşluk */
 }
 
 .button:hover {
@@ -105,9 +140,147 @@ li {
   text-decoration: none;
 }
 
+.site-header .header-inner .logo {
+  margin-left: 156px;
+}
+
+.site-header .header-inner .navigator {
+  padding-left: 76px;
+}
+
+.hero-section {
+  width: ½100;
+  height: 600px;
+  background-color: #2e2f42;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.contact-info ul {
+  display: flex;
+  gap: 40px;
+}
+
+.features-section {
+  width: 1128px;
+  height: 104px;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.features-section ul {
+  display: flex;
+  gap: 24px;
+}
+
+.features-section li {
+  width: 264px;
+  height: 104px;
+}
+
+.team {
+  width: 100%;
+  height: 732px;
+  margin: 120px auto 120px auto; /* üst - sağ - alt - sol */
+  padding-top: 120px;
+  background-color: #f4f4fd;
+}
+
+.team ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  margin-top: 72px;
+}
+
+.team li {
+  width: 264px;
+  height: 380px;
+}
+
+.team .section-title {
+  height: 40px;
+  width: 162px;
+
+  text-align: center;
+  margin-top: 120px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  width: 1128px;
+  height: 1000px;
+  margin: 120px auto 120px auto; /* üst - sağ - alt - sol */
+}
+
+.portfolio ul {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio li {
+  width: 360px;
+  height: 420px;
+}
+
+.portfolio .section-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.site-header {
+  width: 100%;
+  height: 72px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+}
+
+.navigator {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navigator ul {
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
 .site-footer {
+  display: flex;
+  height: 312px;
   background-color: #2e2f42;
   padding: 100px 0;
+  margin-bottom: 0;
+  margin-top: 120px;
 }
 
 .site-footer a {
@@ -123,9 +296,20 @@ li {
   color: white;
 }
 
-.hero-section {
-  background-color: #2e2f42;
-  text-align: center;
-  padding: 72px 0 128px;
-  color: white;
+.site-footer .text {
+  width: 264px; /* Çerçeve genişliği */
+  height: 72px; /* Çerçeve yüksekliği */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-left: 156px;
+  margin-top: 16px;
+}
+
+.site-footer .logo {
+  width: 115px;
+  height: 24px;
+  margin-left: 156px;
+  margin-top: 100px;
 }

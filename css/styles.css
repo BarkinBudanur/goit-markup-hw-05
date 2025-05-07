@@ -119,6 +119,7 @@ body {
   cursor: pointer;
   margin-top: 48px;
   border: none;
+  border-radius: 4px;
 }
 
 .button:hover {
@@ -204,7 +205,6 @@ li {
   gap: 24px;
   margin: 0 auto;
   margin-top: 72px;
-  
 }
 
 .team li {
@@ -212,7 +212,7 @@ li {
   height: 380px;
   background-color: #fff;
   text-align: center;
- 
+  border-radius: 4px;
 }
 
 .team .section-title {
@@ -239,7 +239,6 @@ li {
 .portfolio li {
   width: 360px;
   height: 420px;
-  border: 1px solid #e7e7e7; /* Açık gri kenarlık */
   border-radius: 4px;
 }
 
@@ -318,12 +317,18 @@ li {
   margin-top: 100px;
 }
 
-.site-footer .logo .web
-{
-  font-family: 'Raleway', sans-serif;
+.site-footer .logo .web {
+  font-family: "Raleway", sans-serif;
 }
 
-.site-footer .logo .std
-{
-  font-family: 'Raleway', sans-serif;
+.site-footer .logo .std {
+  font-family: "Raleway", sans-serif;
+}
+
+.portfolio .Card-description {
+  width: 360px;
+  height: 120px;
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  padding-left: 16px;
 }

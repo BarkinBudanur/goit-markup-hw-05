@@ -341,3 +341,14 @@ li {
   width: 59.72px;
   height: 64px;
 }
+
+.antenna-container
+{
+  width: 264px;
+  height: 112px;
+}
+
+.icon-antenna {
+  width: 64px;
+  height: 64px;
+}

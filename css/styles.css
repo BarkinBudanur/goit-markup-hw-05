@@ -340,12 +340,16 @@ li {
 }
 
 
-.features-container
+.icon-box
 {
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
   background-color: #F4F4FD;
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center;     /* Dikey ortalama */
+
 }
 
 .icon.icon-antenna,

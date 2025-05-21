@@ -340,12 +340,6 @@ li {
 }
 
 
-.icon icon-antenna
-{
-  width: 59.72px;
-  height: 64px;
-}
-
 .features-container
 {
   width: 264px;
@@ -354,7 +348,11 @@ li {
   background-color: #F4F4FD;
 }
 
-.icon-antenna {
+.icon.icon-antenna,
+.icon.icon-clock,
+.icon.icon-diagram,
+.icon.icon-astronaut
+{
   width: 64px;
   height: 64px;
 }

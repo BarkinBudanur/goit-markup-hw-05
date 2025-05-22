@@ -369,16 +369,19 @@ li {
   margin-bottom: 32px; /* alttan biraz boşluk */
 }
 
-
-
-.social-box .icon {
-  display: flex;
-  align-items: center;
+.social-box .instagram,
+.social-box .twitter,
+.social-box .facebook,
+.social-box .linkedin
+{
+  display: flex; 
   justify-content: center;
-  background-color: #4D5AE5;
-  border-radius: 50%;
+  align-items: center;
   width: 40px;
-  height: 40px;
+  height: 40x;
+  background-color: #4d5ae5;
+  border-radius: 50%;   
+
 }
 
 .icon.icon-instagram,

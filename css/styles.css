@@ -377,3 +377,12 @@ li {
   width: 16px;
   height: 16px;
 }
+
+.social-box .icon {
+  background-color: #4D5AE5;
+  padding: 8px;
+  border-radius: 50%;
+  fill: white;
+  width: 40px;
+  height: 40px;
+}

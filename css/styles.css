@@ -369,8 +369,11 @@ li {
   margin-bottom: 32px; /* alttan biraz boşluk */
 }
 
-.social-box .icon {
+.icon.icon-instagram,
+.icon.icon-twitter,
+.icon.icon-facebook,
+.icon.icon-linkedin
+{
   width: 16px;
   height: 16px;
-
 }

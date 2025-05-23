@@ -367,6 +367,8 @@ li {
   justify-content: center; /* ortalamak istersen */
   margin-top: 8px; /* üstten biraz boşluk */
   margin-bottom: 32px; /* alttan biraz boşluk */
+  width: 232px;
+  height: 40px;
 }
 
 .social-box .instagram,
@@ -378,7 +380,7 @@ li {
   justify-content: center;
   align-items: center;
   width: 40px;
-  height: 40x;
+  height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;   
 

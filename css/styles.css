@@ -365,10 +365,10 @@ li {
   display: flex;
   gap: 24px; /* ikonlar arasında boşluk bırakır */
   justify-content: center; /* ortalamak istersen */
-  margin-top: 8px; /* üstten biraz boşluk */
-  margin-bottom: 32px; /* alttan biraz boşluk */
+  align-items: center;
   width: 232px;
   height: 40px;
+  margin-left: 16px;
 }
 
 .social-box .instagram,

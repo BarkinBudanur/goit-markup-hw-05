@@ -372,8 +372,8 @@ li {
 
 .social-box {
   display: flex;
-  gap: 24px; /* ikonlar arasında boşluk bırakır */
-  justify-content: center; /* ortalamak istersen */
+  gap: 24px; 
+  justify-content: center; 
   align-items: center;
   width: 232px;
   height: 40px;
@@ -422,4 +422,6 @@ li {
   width: 208px;
   height: 40px;
   margin-left: 0;
+  gap: 16px;
 }
+

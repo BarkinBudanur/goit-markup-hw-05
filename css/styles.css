@@ -155,21 +155,37 @@ li {
 }
 
 .hero-section {
+  position: relative; /* overlay için gerekli */
   width: 100%;
   height: 600px;
-  background-color: #2e2f42;
+  background-image: url('../images/people-office.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
-  margin: 0 auto;
-  text-align: center;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 120px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0 auto 120px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background-color: rgba(46, 47, 66, 0.7); 
+  z-index: 1;
+}
+
+
+.hero-section > * {
+  position: relative;
+  z-index: 2;
 }
 
 .contact-info ul {

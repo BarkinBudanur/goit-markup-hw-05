@@ -13,11 +13,11 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 72px;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid #ccc;
   font-weight: 500;
 }
 
@@ -156,7 +156,7 @@ li {
 }
 
 .hero-section {
-  position: relative; /* overlay için gerekli */
+  position: relative; 
   width: 100%;
   max-width: 1440px;
   height: 600px;
@@ -215,6 +215,7 @@ li {
 
 .team {
   width: 100%;
+  max-width: 1440px;
   height: 780px;
   margin: 120px auto 120px auto; /* üst - sağ - alt - sol */
   padding-top: 120px;
@@ -301,9 +302,11 @@ li {
 .site-footer {
   height: 312px;
   width: 100%;
+  max-width: 1440px;
   background-color: #2e2f42;
   margin-top: 120px;
   border: 2px solid;
+  margin: 0 auto;
 }
 
 .site-footer a {

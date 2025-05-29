@@ -402,10 +402,10 @@ li {
   background-color: #404BBF;
 }
 
-.social-box-2 .instagram,
-.social-box-2 .twitter,
-.social-box-2 .facebook,
-.social-box-2 .linkedin {
+.SocialMedia .social-box .instagram,
+.SocialMedia .social-box .twitter,
+.SocialMedia .social-box .facebook,
+.SocialMedia .social-box .linkedin {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,10 +415,10 @@ li {
   border-radius: 50%;
 }
 
-.social-box-2 .instagram:hover,
-.social-box-2 .twitter:hover,
-.social-box-2 .facebook:hover,
-.social-box-2 .linkedin:hover {
+.SocialMedia .social-box .instagram:hover,
+.SocialMedia .social-box .twitter:hover,
+.SocialMedia .social-box .facebook:hover,
+.SocialMedia .social-box .linkedin:hover {
   background-color: #31D0AA;
 }
 

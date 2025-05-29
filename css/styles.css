@@ -395,6 +395,14 @@ li {
   border-radius: 50%;
 }
 
+.social-box .instagram:hover,
+.social-box .twitter:hover,
+.social-box .facebook:hover,
+.social-box .linkedin:hover {
+  background-color: #404BBF;
+}
+
+
 .icon.icon-instagram,
 .icon.icon-twitter,
 .icon.icon-facebook,

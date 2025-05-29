@@ -402,6 +402,26 @@ li {
   background-color: #404BBF;
 }
 
+.social-box-2 .instagram,
+.social-box-2 .twitter,
+.social-box-2 .facebook,
+.social-box-2 .linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.social-box-2 .instagram:hover,
+.social-box-2 .twitter:hover,
+.social-box-2 .facebook:hover,
+.social-box-2 .linkedin:hover {
+  background-color: #31D0AA;
+}
+
 
 .icon.icon-instagram,
 .icon.icon-twitter,

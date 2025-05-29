@@ -88,6 +88,13 @@ body {
   color: #4d5ae5;
 }
 
+.navigator ul {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 40px;
+}
+
 .contact-info .mail {
   color: black;
 }
@@ -130,6 +137,7 @@ ul {
 }
 
 li {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -149,7 +157,6 @@ li {
 .hero-section {
   position: relative;
   width: 100%;
-  max-width: 1440px;
   height: 600px;
   background-image: url("../images/people-office.jpg");
   background-size: cover;
@@ -162,7 +169,7 @@ li {
   justify-content: center;
   align-items: center;
 
-  margin: 0 auto 120px;
+  margin: 0 auto;
   text-align: center;
   overflow: hidden;
 }
@@ -279,8 +286,6 @@ li {
 
 .navigator ul {
   display: flex;
-  justify-content: flex-start;
-  width: 100%;
   gap: 40px;
   padding: 0;
   margin: 0;
@@ -468,9 +473,9 @@ textarea,
 .navigator .studio::after {
   content: "";
   position: absolute;
-  top: 100%;
+  top: 100%; /* Elementin altından başlat */
   left: 0;
-  margin-top: 20px;
+  margin-top: 20px; /* 20px boşluk bırak */
   width: 48px;
   height: 4px;
   background-color: #404bbf;

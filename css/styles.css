@@ -18,6 +18,7 @@ img {
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid #ccc;
+  font-weight: 500;
 }
 
 .site-header .contact-info {
@@ -157,6 +158,7 @@ li {
 .hero-section {
   position: relative; /* overlay için gerekli */
   width: 100%;
+  max-width: 1440px;
   height: 600px;
   background-image: url("../images/people-office.jpg");
   background-size: cover;
@@ -429,8 +431,7 @@ a,
 button,
 input,
 textarea,
-.social-link,
-.nav-link,
+.navigator,
 .logo {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -438,24 +439,26 @@ textarea,
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.nav-link {
+.navigator .studio {
   position: relative;
-  color: #212121;
-  text-decoration: none;
-  padding: 8px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404BBF; 
 }
 
-
-.nav-link.current::after {
+.navigator .studio::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  top: 100%; /* Elementin altından başlat */
   left: 0;
+  margin-top: 20px; /* 20px boşluk bırak */
+  width: 48px;
   height: 4px;
-  width: 100%;
-  background-color: #2196f3;
+  background-color: #404BBF;
   border-radius: 2px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-footer
+{
+
+  font-weight: 500;
+
 }

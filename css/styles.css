@@ -157,6 +157,7 @@ li {
 .hero-section {
   position: relative;
   width: 100%;
+  max-width: 1440px;
   height: 600px;
   background-image: url("../images/people-office.jpg");
   background-size: cover;
@@ -278,6 +279,20 @@ li {
   padding: 0 15px;
 }
 
+.site-header .header-inner .logo .web {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+
+}
+
+.site-header .header-inner .logo .std {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+
+}
+
 .navigator {
   flex-grow: 1;
   display: flex;
@@ -335,14 +350,17 @@ li {
   height: 24px;
   margin-left: 156px;
   margin-top: 100px;
+
 }
 
 .site-footer .logo .web {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
 .site-footer .logo .std {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
 .portfolio .Card-description {

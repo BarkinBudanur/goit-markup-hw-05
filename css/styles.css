@@ -314,7 +314,7 @@ li {
   background-color: #2e2f42;
   margin-top: 120px;
   border: 2px solid;
-  margin: 0 auto;
+  margin: 0 auto;          
 }
 
 .site-footer a {
@@ -462,6 +462,15 @@ li {
   margin-left: 0;
 }
 
+.site-footer .footer-subscribe {
+  width: 453px;
+  height: 80px;
+  margin-left: 828px;
+  margin-top: -100px;      
+}
+
+
+
 .site-footer .SocialMedia .social-box {
   width: 208px;
   height: 40px;
@@ -535,4 +544,13 @@ textarea,
   letter-spacing: 0.02em;
   color: #fff;
   margin: 0;
+}
+
+button {
+  background-color: #4D5AE5;
+  color: #FFFFFF; /* Yazının görünür olması için beyaz */
+  border: none;
+  padding: 12px 24px; /* Buton iç boşluğu */
+  border-radius: 4px; /* Köşe yumuşatma */
+  cursor: pointer;
 }

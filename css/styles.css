@@ -555,11 +555,7 @@ button {
   cursor: pointer;
 }
 
-icon-paper-plane
-{
-
-  width: 24px;
-  height: 24px;
-
-
+.icon-paper-plane {
+    width: 24px;
+    height: 24px;
 }

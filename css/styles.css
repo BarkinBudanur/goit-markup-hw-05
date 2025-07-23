@@ -559,3 +559,13 @@ button {
     width: 24px;
     height: 24px;
 }
+
+.subscribe-form input[type="email"] {
+    width: 264px;
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;      
+    box-sizing: border-box;  
+}

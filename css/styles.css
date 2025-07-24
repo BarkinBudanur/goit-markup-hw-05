@@ -308,14 +308,7 @@ li {
   align-items: center;
 }
 
-.site-footer {
-  height: 312px;
-  width: 100%;
-  background-color: #2e2f42;
-  margin-top: 120px;
-  border: 2px solid;
-  margin: 0 auto;          
-}
+
 
 .site-footer a {
   text-decoration: none;
@@ -449,11 +442,8 @@ li {
   display: flex;
   width: 208px;
   height: 80px;
-  margin-left: 540px;
-  margin-top: -132px;
+  justify-content: center; 
 
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .site-footer .SocialMedia .text2 {
@@ -462,20 +452,11 @@ li {
   margin-left: 0;
 }
 
-.site-footer .footer-subscribe {
-  width: 453px;
-  height: 80px;
-  margin-left: 828px;
-  margin-top: -100px;      
-}
-
-
 
 .site-footer .SocialMedia .social-box {
   width: 208px;
   height: 40px;
-  margin-left: 0;
-  gap: 16px;
+
 }
 
 a,
@@ -569,3 +550,157 @@ button {
     border-radius: 4px;      
     box-sizing: border-box;  
 }
+
+.site-footer .footer-subscribe {
+  width: 453px;
+  height: 80px;
+
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 156px;
+  background-color: #2e2f42;
+  border: 2px solid #444;
+  color: white;
+  height: auto;
+  gap: 40px;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.footer-purpose,
+.SocialMedia,
+.footer-subscribe {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.footer-purpose {
+  max-width: 264px;
+}
+
+.footer-purpose .logo {
+  margin: 0 0 16px 0;
+  display: block;
+  width: 115px;
+  height: 24px;
+}
+
+.footer-purpose .web {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-purpose .std {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-purpose .text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: white;
+}
+
+.SocialMedia {
+  max-width: 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.SocialMedia .text2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.SocialMedia .social-box {
+  display: flex;
+  gap: 16px;
+}
+
+.SocialMedia .social-box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms ease;
+}
+
+.SocialMedia .social-box a:hover {
+  background-color: #31d0aa;
+}
+
+.icon-paper-plane {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-subscribe {
+  max-width: 453px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+}
+
+.footer-subscribe p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+}
+
+.subscribe-form input[type="email"] {
+  flex-grow: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.subscribe-form button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 250ms ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #404bbf;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+

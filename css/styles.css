@@ -238,8 +238,6 @@ li {
 
 .team .section-title {
   height: 40px;
-  width: 162px;
-
   text-align: center;
   margin-top: 120px;
   margin: 0 auto;
@@ -674,10 +672,13 @@ button {
 .subscribe-form input[type="email"] {
   flex-grow: 1;
   padding: 8px 12px;
-  font-size: 16px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  background-color: #2E2F42;
 }
 
 .subscribe-form button {
@@ -704,3 +705,105 @@ button {
   color: inherit;
 }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 47, 66, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  width: 408px;
+  position: relative;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-title {
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #2E2F42;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-field {
+  position: relative;
+}
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.form-icon .icon {
+  width: 18px;
+  height: 18px;
+  fill: #2E2F42;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #2E2F42;
+}
+
+.checkbox-label a {
+  color: #4D5AE5;
+  text-decoration: underline;
+}
+
+.submit-button {
+  background-color: #4D5AE5;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2E2F42;
+}

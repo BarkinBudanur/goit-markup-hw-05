@@ -716,12 +716,10 @@ button {
   justify-content: center;
   align-items: center;
   z-index: 999;
-  display: none;
+
 }
 
-.modal-overlay.active {
-  display: flex;
-}
+
 
 .modal-box {
   background-color: #fff;

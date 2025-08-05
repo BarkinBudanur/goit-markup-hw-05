@@ -720,7 +720,7 @@ button {
 }
 
 .modal-overlay.active {
-  display: block;
+  display: flex;
 }
 
 .modal-box {

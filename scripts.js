@@ -1,25 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const orderBtn = document.querySelector('.button');         // "Order Service" butonu
-  const modalOverlay = document.querySelector('.modal-overlay'); // Modal arka plan
-  const closeBtn = document.querySelector('.close-btn');         // Kapatma butonu
+document.addEventListener("DOMContentLoaded", () => {
+  const openBtn = document.querySelector(".button"); // Order Service butonu
+  const modal = document.querySelector(".modal-overlay");
+  const closeBtn = document.querySelector(".close-btn");
 
-  // Butona tıklanınca modalı göster
-  orderBtn.addEventListener('click', () => {
-    modalOverlay.classList.add('active');
-    document.body.style.overflow = 'hidden'; // Sayfa kaydırmayı kapat (isteğe bağlı)
+  openBtn.addEventListener("click", () => {
+    modal.classList.add("active"); // modal görünür olsun
   });
 
-  // Kapat butonuna tıklayınca modalı gizle
-  closeBtn.addEventListener('click', () => {
-    modalOverlay.classList.remove('active');
-    document.body.style.overflow = '';
+  closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active"); // modal gizlensin
   });
 
-  // Modal arka planına tıklayınca da kapat (sadece modal dışına tıklayınca)
-  modalOverlay.addEventListener('click', (e) => {
-    if (e.target === modalOverlay) {
-      modalOverlay.classList.remove('active');
-      document.body.style.overflow = '';
+  // İstersen, modal dışına tıklayınca kapansın:
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.remove("active");
     }
   });
 });

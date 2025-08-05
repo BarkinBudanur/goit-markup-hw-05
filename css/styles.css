@@ -757,9 +757,18 @@ button {
 }
 
 
-.form-icon .icon {
+.form-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 18px;
   height: 18px;
+}
+
+.form-icon svg,
+.form-icon use {
+  width: 100%;
+  height: 100%;
   fill: #2E2F42;
 }
 

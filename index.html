@@ -13,6 +13,7 @@
       rel="stylesheet"
    />
     <link rel="stylesheet" href="css/styles.css" />
+
   </head>
 
   <body>
@@ -50,6 +51,47 @@
         <h1 class="main-title">Effective Solutions<br />for Your Business</h1>  <!-- Sitenin baslıgı -->
         <button type="button" class="button">Order Service</button>
       </section>
+
+      <div class="modal-overlay">
+  <div class="modal-box">
+    <button class="close-btn">✖</button>
+    <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+
+    <form class="modal-form">
+      <label class="form-field">
+        <span class="form-icon">
+          <svg class="icon"><use xlink:href="./images/symbol-defs.svg#icon-person"></use></svg>
+        </span>
+        <input type="text" name="name" placeholder="Name" required />
+      </label>
+
+      <label class="form-field">
+        <span class="form-icon">
+          <svg class="icon"><use xlink:href="./images/symbol-defs.svg#icon-phone"></use></svg>
+        </span>
+        <input type="tel" name="phone" placeholder="Phone" required />
+      </label>
+
+      <label class="form-field">
+        <span class="form-icon">
+          <svg class="icon"><use xlink:href="./images/symbol-defs.svg#icon-email"></use></svg>
+        </span>
+        <input type="email" name="email" placeholder="Email" required />
+      </label>
+
+      <label class="form-field">
+        <textarea name="comment" placeholder="Text input"></textarea>
+      </label>
+
+      <label class="checkbox-label">
+        <input type="checkbox" required />
+        I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+      </label>
+
+      <button type="submit" class="submit-button">Send</button>
+    </form>
+  </div>
+</div>
         
       
       <section class="features-section">  <!-- şirketin özellikleri -->
@@ -460,5 +502,6 @@
 
 
     </footer>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

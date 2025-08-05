@@ -757,12 +757,25 @@ button {
 }
 
 
+.form-field {
+  display: flex;
+  align-items: center; /* ikon ve input'u dikeyde ortalar */
+  gap: 8px;
+}
+
+.form-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
 .form-icon .icon {
   width: 18px;
   height: 18px;
-  margin-top: 16px;
-
-  
+  fill: #2E2F42;
 }
 
 input[type="text"],

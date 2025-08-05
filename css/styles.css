@@ -760,9 +760,9 @@ button {
 .form-icon .icon {
   width: 18px;
   height: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 16px;
+
+  
 }
 
 input[type="text"],

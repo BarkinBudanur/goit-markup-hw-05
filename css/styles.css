@@ -756,13 +756,6 @@ button {
   position: relative;
 }
 
-.form-icon {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
 
 .form-icon .icon {
   width: 18px;

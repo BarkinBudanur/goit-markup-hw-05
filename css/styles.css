@@ -760,14 +760,9 @@ button {
 .form-icon .icon {
   width: 18px;
   height: 18px;  
-  margin-left: auto;
+  margin-left: 100px;
 }
 
-.form-field {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* ikon ve input arası boşluk */
-}
 
 .form-icon {
   display: flex;

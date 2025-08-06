@@ -764,11 +764,6 @@ button {
 }
 
 
-.form-icon {
-  display: flex;
-  align-items: center;
-}
-
 input[type="text"],
 input[type="tel"],
 input[type="email"],

@@ -755,13 +755,24 @@ button {
 .form-field {
   position: relative;
 }
-
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* input'u tıklanabilir bırakır */
+}
 
 .form-icon .icon {
   width: 18px;
   height: 18px;  
 
 }
+
+
 
 
 input[type="text"],

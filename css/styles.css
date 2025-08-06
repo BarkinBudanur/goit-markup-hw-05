@@ -811,11 +811,21 @@ textarea {
 }
 
 .checkbox-label {
-  font-size: 14px;
+  font-size: 12px;
   color: #2E2F42;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .checkbox-label a {
+  font-size: 12px;
+  color: #2E2F42;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: 'Roboto', sans-serif;
   color: #4D5AE5;
   text-decoration: underline;
 }
@@ -833,4 +843,10 @@ textarea {
 
 .submit-button:hover {
   background-color: #2E2F42;
+}
+
+textarea {
+  width: 360px;
+  height: 336px;
+
 }

@@ -755,6 +755,17 @@ button {
 .form-field {
   position: relative;
 }
+
+.form-icon .icon {
+  width: 18px;
+  height: 18px;  
+
+}
+
+.form-field {
+  position: relative;
+}
+
 .form-icon {
   position: absolute;
   top: 50%;
@@ -763,16 +774,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: none; /* input'u tıklanabilir bırakır */
+  pointer-events: none;
 }
 
-.form-icon .icon {
-  width: 18px;
-  height: 18px;  
-
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  padding: 10px 10px 10px 40px;
 }
-
-
 
 
 input[type="text"],

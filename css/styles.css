@@ -854,4 +854,5 @@ textarea {
 .modal-form .submit-button {
   width: 169px;
   height: 56px;
+  text-align: center;
 }

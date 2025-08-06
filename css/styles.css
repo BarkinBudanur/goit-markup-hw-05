@@ -750,6 +750,11 @@ button {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .form-field {

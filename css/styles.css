@@ -878,3 +878,11 @@ textarea:focus {
   padding: 0;
   cursor: pointer;
 }
+
+.close-btn .icon {
+  width: 24px;
+  height: 24px;
+  stroke: #4D5AE5; /* Mor ton */
+  fill: none;       
+  stroke-width: 2;
+}

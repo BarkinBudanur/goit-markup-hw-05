@@ -875,7 +875,5 @@ textarea:focus {
 .close-btn .form-icon{
   background: transparent;
   border: none;
-  padding: 0;
-  cursor: pointer;
 }
 

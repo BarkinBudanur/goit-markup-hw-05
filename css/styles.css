@@ -876,6 +876,8 @@ textarea:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -883,6 +885,8 @@ textarea:focus {
 }
 
 .icon-close {
+  width: 24px;
+  height: 24px;
   stroke: #4D5AE5;
   fill: none;
   stroke-width: 2;

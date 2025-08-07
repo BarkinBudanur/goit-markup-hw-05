@@ -872,7 +872,7 @@ textarea:focus {
   fill: #4D5AE5; 
 }
 
-.close-btn .form-icon .icon icon-close{
+.close-btn .form-icon{
   background: transparent;
   border: none;
   padding: 0;

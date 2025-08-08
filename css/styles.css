@@ -873,12 +873,10 @@ textarea:focus {
 }
 
 .close-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent; 
   border: none;
   padding: 0;
   cursor: pointer;
@@ -887,7 +885,7 @@ textarea:focus {
 .icon-close {
   width: 24px;
   height: 24px;
-  stroke: #4D5AE5;
-  fill: none;
-  stroke-width: 2;
+  fill: none;        
+  stroke: #4A4AFF;   
+  stroke-width: 2;   
 }

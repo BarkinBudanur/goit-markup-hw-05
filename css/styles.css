@@ -872,20 +872,3 @@ textarea:focus {
   fill: #4D5AE5; 
 }
 
-.close-btn .icon.icon-close {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  background: transparent; 
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.icon.icon-close {
-  width: 24px;
-  height: 24px;
-  fill: none;        
-  stroke: #4A4AFF;   
-  stroke-width: 2;   
-}

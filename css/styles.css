@@ -874,4 +874,6 @@ textarea:focus {
 
 .modal-overlay .modal-box .close-btn {
   border: none;
+  width: 24px;
+  height: 24px;
 }

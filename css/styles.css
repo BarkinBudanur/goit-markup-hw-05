@@ -872,3 +872,6 @@ textarea:focus {
   fill: #4D5AE5; 
 }
 
+.modal-overlay .modal-box .close-btn {
+  border: none;
+}

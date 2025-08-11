@@ -880,7 +880,3 @@ textarea:focus {
   stroke: none
 }
 
-.modal-overlay .modal-box .close-btn {
-  border: none !important;
-  background: none !important; /* varsa arka planı da kaldırır */
-}

@@ -306,8 +306,6 @@ li {
   align-items: center;
 }
 
-
-
 .site-footer a {
   text-decoration: none;
 }
@@ -440,8 +438,7 @@ li {
   display: flex;
   width: 208px;
   height: 80px;
-  justify-content: center; 
-
+  justify-content: center;
 }
 
 .site-footer .SocialMedia .text2 {
@@ -449,7 +446,6 @@ li {
   height: 24px;
   margin-left: 20px;
 }
-
 
 .site-footer .SocialMedia .social-box {
   width: 208px;
@@ -525,8 +521,8 @@ textarea,
 }
 
 button {
-  background-color: #4D5AE5;
-  color: #FFFFFF; /* Yazının görünür olması için beyaz */
+  background-color: #4d5ae5;
+  color: #ffffff; /* Yazının görünür olması için beyaz */
   border: none;
   padding: 12px 24px; /* Buton iç boşluğu */
   border-radius: 4px; /* Köşe yumuşatma */
@@ -534,24 +530,23 @@ button {
 }
 
 .icon-paper-plane {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .subscribe-form input[type="email"] {
-    width: 264px;
-    height: 40px;
-    padding: 8px 12px;
-    font-size: 16px;
-    border: 1px solid #ccc; 
-    border-radius: 4px;      
-    box-sizing: border-box;  
+  width: 264px;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .site-footer .footer-subscribe {
   width: 453px;
   height: 80px;
-
 }
 
 .site-footer {
@@ -672,12 +667,12 @@ button {
   flex-grow: 1;
   padding: 8px 12px;
   font-size: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .subscribe-form button {
@@ -715,10 +710,7 @@ button {
   justify-content: center;
   align-items: center;
   z-index: 999;
-
 }
-
-
 
 .modal-box {
   background-color: #fff;
@@ -741,12 +733,12 @@ button {
 
 .modal-title {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 24px;
-  color: #2E2F42;
+  color: #2e2f42;
   font-weight: 500;
   width: 360px;
-  height: 24px;  
+  height: 24px;
 }
 
 .modal-form {
@@ -756,8 +748,7 @@ button {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 .form-field {
@@ -766,8 +757,7 @@ button {
 
 .form-icon .icon {
   width: 12px;
-  height: 12px;  
-
+  height: 12px;
 }
 
 .form-field {
@@ -792,7 +782,6 @@ textarea {
   padding: 10px 10px 10px 40px;
 }
 
-
 input[type="text"],
 input[type="tel"],
 input[type="email"],
@@ -811,26 +800,26 @@ textarea {
 
 .checkbox-label {
   font-size: 12px;
-  color: #2E2F42;
+  color: #2e2f42;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .checkbox-label a {
   font-size: 12px;
-  color: #2E2F42;
+  color: #2e2f42;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  font-family: 'Roboto', sans-serif;
-  color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  color: #4d5ae5;
   text-decoration: underline;
 }
 
 .submit-button {
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: white;
   border: none;
   padding: 12px 0;
@@ -841,13 +830,12 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 textarea {
   width: 360px;
   height: 120px;
-
 }
 
 .modal-form .submit-button {
@@ -855,7 +843,6 @@ textarea {
   height: 56px;
   margin: 0 auto;
   display: block;
-
 }
 
 input[type="text"]:focus,
@@ -863,13 +850,12 @@ input[type="tel"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   outline: none;
-  border-color: #4D5AE5; 
-  box-shadow: 0 0 4px rgba(77, 90, 229, 0.4); 
-
+  border-color: #4d5ae5;
+  box-shadow: 0 0 4px rgba(77, 90, 229, 0.4);
 }
 
 .form-field:focus-within .icon {
-  fill: #4D5AE5; 
+  fill: #4d5ae5;
 }
 
 .modal-overlay .modal-box .icon.icon-close {
@@ -877,6 +863,5 @@ textarea:focus {
   width: 24px;
   height: 24px;
   cursor: pointer;
-  stroke: none
+  stroke: none;
 }
-

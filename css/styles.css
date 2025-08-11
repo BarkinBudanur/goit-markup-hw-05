@@ -879,3 +879,7 @@ textarea:focus {
   cursor: pointer;
   stroke: none
 }
+
+.modal-overlay .modal-box .icon.icon-close * {
+  stroke: none !important;
+}
